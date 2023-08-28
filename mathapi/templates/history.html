@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Math Operations History</title>
+</head>
+<body>
+    <h1>History of Operations:</h1>
+    <ul>
+        {% for entry in history %}
+            <li>{{ entry.question }} = {{ entry.answer }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
